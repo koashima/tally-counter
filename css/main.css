@@ -1,6 +1,11 @@
 h1 { 
   display: flex;
   justify-content: center;
+
+}
+
+.counter { 
+  color: slategray;
 }
 
 .container {
@@ -11,6 +16,9 @@ h1 {
 
 .input {
   text-align: center;
+  background-color: slategray;
+  color: azure;
+  font-size: 1rem;
 }
 
 div > * {
