@@ -20,6 +20,7 @@ let init = () => {
 
 let render = () => { 
   counter.innerHTML = number
+  number < 0 ? counter.style.color = 'red' : counter.style.color = 'slategray';
 }
 
 function plusCounter() {
